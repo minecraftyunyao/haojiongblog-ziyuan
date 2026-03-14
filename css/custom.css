@@ -3,7 +3,16 @@
   src:url('https://cdn.jsdelivr.net/gh/minecraftyunyao/haojiongblog-ziyuan/font/minecrafttitle.ttf'); /* 字体文件路径 */
   font-display : swap;
 }
-
+@font-face{
+  font-family:'post' ;  /* 字体名自定义即可 */
+  src:url('https://cdn.jsdelivr.net/gh/minecraftyunyao/haojiongblog-ziyuan/font/post.ttf'); /* 字体文件路径 */
+  font-display : swap;
+}
+@font-face{
+  font-family:'code' ;  /* 字体名自定义即可 */
+  src:url('https://cdn.jsdelivr.net/gh/minecraftyunyao/haojiongblog-ziyuan/font/code.ttf'); /* 字体文件路径 */
+  font-display : swap;
+}
 /* ===========================================
    导航栏霓虹灯效果
    =========================================== */
