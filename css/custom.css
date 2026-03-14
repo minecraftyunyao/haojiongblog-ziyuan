@@ -1,18 +1,36 @@
-@font-face{
-  font-family:'minecrafttitle' ;  /* 字体名自定义即可 */
-  src:url('/font/minecrafttitle.ttf); /* 字体文件路径 */
-  font-display : swap;
+/* 引入全局字体（meow.otf） */
+@font-face {
+  font-family: 'post';
+  src: url('https://cdn.jsdelivr.net/gh/minecraftyunyao/haojiongblog-ziyuan/font/post.ttf') format('truetype');  /* otf字体，ttf把format改成truetype */
+  font-weight: normal;
+  font-style: normal;
 }
-@font-face{
-  font-family:'post' ;  /* 字体名自定义即可 */
-  src:url('/font/post.ttf'); /* 字体文件路径 */
-  font-display : swap;
+
+/* 引入代码字体（shaonv.ttf） */
+@font-face {
+  font-family: 'code';
+  src: url('https://cdn.jsdelivr.net/gh/minecraftyunyao/haojiongblog-ziyuan/font/code.ttf') format('truetype');  /* ttf字体，otf把format改成opentype */
+  font-weight: normal;
+  font-style: normal;
 }
-@font-face{
-  font-family:'code' ;  /* 字体名自定义即可 */
-  src:url('/font/code.ttf'); /* 字体文件路径 */
-  font-display : swap;
+
+@font-face {
+  font-family: 'minecrafttitle';
+  src: url('https://cdn.jsdelivr.net/gh/minecraftyunyao/haojiongblog-ziyuan/font/minecrafttitle.ttf') format('truetype');  /* ttf字体，otf把format改成opentype */
+  font-weight: normal;
+  font-style: normal;
 }
+
+/* 设置全局字体 */
+body {
+  font-family: 'post';
+}
+
+/* 设置代码字体 */
+code, pre {
+  font-family: 'code';
+}
+
 /* ===========================================
    导航栏霓虹灯效果
    =========================================== */
